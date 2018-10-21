@@ -1,0 +1,41 @@
+﻿Build started 7/2/2017 15:04:58.
+     1>Project "C:\Irvine\Examples\Lib32\Project_sample\Project.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>_MASM:
+         Assembling font.asm...
+         cmd.exe /C "C:\Users\Puma\AppData\Local\Temp\tmpf4e5d19838c94a548059f342694871b9.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\font.obj" /I "c:\Irvine" /W3 /errorReport:prompt  /Tafont.asm
+       _MASM:
+         Assembling Function.asm...
+         cmd.exe /C "C:\Users\Puma\AppData\Local\Temp\tmp2ebdb2f486ad4cd2a23ad310830af469.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\Function.obj" /I "c:\Irvine" /W3 /errorReport:prompt  /TaFunction.asm
+     1>Function.asm(131): warning A6004: procedure argument or local not referenced : Temp
+     1>Function.asm(496): warning A6004: procedure argument or local not referenced : RowPTR
+     1>Function.asm(496): warning A6004: procedure argument or local not referenced : Temp
+     1>Function.asm(743): warning A6004: procedure argument or local not referenced : temp
+     1>Function.asm(765): warning A6004: procedure argument or local not referenced : temp
+     1>Function.asm(937): warning A6004: procedure argument or local not referenced : x_curr
+     1>Function.asm(937): warning A6004: procedure argument or local not referenced : y_curr
+     1>Function.asm(1082): warning A6004: procedure argument or local not referenced : NextPosition
+     1>Function.asm(1183): warning A6004: procedure argument or local not referenced : tempc
+     1>Function.asm(1183): warning A6004: procedure argument or local not referenced : tempp
+       _MASM:
+         Assembling main_program.asm...
+         cmd.exe /C "C:\Users\Puma\AppData\Local\Temp\tmpcd9d04ceba734d26b53062a707643ec9.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main_program.obj" /I "c:\Irvine" /W3 /errorReport:prompt  /Tamain_program.asm
+       _MASM:
+         Assembling WelcomeScreen.asm...
+         cmd.exe /C "C:\Users\Puma\AppData\Local\Temp\tmpcd5e8f3beaf54b17a741d5b936818d59.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\WelcomeScreen.obj" /I "c:\Irvine" /W3 /errorReport:prompt  /TaWelcomeScreen.asm
+     1>WelcomeScreen.asm(201): warning A6004: procedure argument or local not referenced : StartColor
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Irvine\Examples\Lib32\Project_sample\Debug\Arkanoid.exe" /NOLOGO /LIBPATH:C:\Irvine\Examples\Lib32\Project_sample\Debug /LIBPATH:c:\Irvine user32.lib irvine32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Irvine\Examples\Lib32\Project_sample\Debug\Arkanoid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Irvine\Examples\Lib32\Project_sample\Debug\Arkanoid.lib" /MACHINE:X86 /SAFESEH:NO Debug\font.obj
+         Debug\Function.obj
+         Debug\main_program.obj
+         Debug\WelcomeScreen.obj
+         Project.vcxproj -> C:\Irvine\Examples\Lib32\Project_sample\Debug\Arkanoid.exe
+     1>Done Building Project "C:\Irvine\Examples\Lib32\Project_sample\Project.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.44
